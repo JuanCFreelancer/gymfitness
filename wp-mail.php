@@ -39,6 +39,7 @@ if ( ! defined( 'WP_MAIL_INTERVAL' ) ) {
 $last_checked = get_transient( 'mailserver_last_checked' );
 
 if ( $last_checked ) {
+<<<<<<< HEAD
 	wp_die(
 		sprintf(
 			// translators: %s human readable rate limit.
@@ -48,6 +49,9 @@ if ( $last_checked ) {
 		__( 'Slow down, no need to check for new mails so often!' ),
 		429
 	);
+=======
+	wp_die( __( 'Slow down cowboy, no need to check for new mails so often!' ) );
+>>>>>>> 4e3e7ddb833d5a95fb7cb5a3b8148335e4e285e7
 }
 
 set_transient( 'mailserver_last_checked', true, WP_MAIL_INTERVAL );

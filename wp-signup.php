@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 /**
  * WordPress Signup Page
  *
@@ -6,6 +7,8 @@
  *
  * @package WordPress
  */
+=======
+>>>>>>> 4e3e7ddb833d5a95fb7cb5a3b8148335e4e285e7
 
 /** Sets up the WordPress Environment. */
 require __DIR__ . '/wp-load.php';
@@ -68,7 +71,11 @@ function wpmu_signup_stylesheet() {
 		.mu_register form { margin-top: 2em; }
 		.mu_register fieldset,
 			.mu_register legend { margin: 0; padding: 0; border: none; }
+<<<<<<< HEAD
 		.mu_register .error { padding: 10px; color: #333; background: #ffebe8; border: 1px solid #c00; }
+=======
+		.mu_register .error { font-weight: 600; padding: 10px; color: #333; background: #ffebe8; border: 1px solid #c00; }
+>>>>>>> 4e3e7ddb833d5a95fb7cb5a3b8148335e4e285e7
 		.mu_register input[type="submit"],
 			.mu_register #blog_title,
 			.mu_register #user_email,
