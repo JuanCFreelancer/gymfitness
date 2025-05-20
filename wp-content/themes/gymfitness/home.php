@@ -11,6 +11,9 @@ get_header();
                 } 
             ?>
         </ul>
+        <?php
+            the_posts_pagination();
+        ?>
     </main>
 
 <?php
